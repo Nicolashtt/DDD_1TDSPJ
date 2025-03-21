@@ -22,7 +22,7 @@ public class TesteLivro {
         meuLivro.resumo = "UML abordagem prática....";
         meuLivro.exibirLivro();
 
-        Livro livroDaGiovanna = new Livro();
+        Livro livroDaGiovanna = new Livro(novatec);
         livroDaGiovanna.titulo = "Harry Potter e a pedra filosofal";
         livroDaGiovanna.autor = "J K ";
 
